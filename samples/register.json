@@ -42,7 +42,8 @@
       "period": [
         60,
         85
-      ]
+      ],
+      "slots_requested": 2
     },
     {
       "id": "m-2",
@@ -52,7 +53,8 @@
       "period": [
         72,
         120
-      ]
+      ],
+      "slots_requested": 2
     }
   ]
 }
