@@ -1,0 +1,58 @@
+[
+  {
+    "sequence": 1,
+    "at": 50,
+    "source": "production",
+    "facts": {
+      "mill": "mill-1",
+      "approved_until": 90,
+      "allow": [
+        "weigh"
+      ]
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 70,
+    "source": "backup",
+    "facts": {
+      "accepted": [
+        "o-9",
+        "o-10"
+      ],
+      "claimed": [
+        "o-9"
+      ]
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 76,
+    "source": "maint",
+    "facts": {
+      "id": "m-1",
+      "extend_to": 112
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 91,
+    "source": "production",
+    "facts": {
+      "mill": "mill-1",
+      "retract_previous": true
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 97,
+    "source": "support",
+    "facts": {
+      "restored_at": 93,
+      "link": "m-1",
+      "ready_classes": [
+        "cut"
+      ]
+    }
+  }
+]

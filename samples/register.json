@@ -1,0 +1,58 @@
+{
+  "shifts": {
+    "mill-1": [
+      [
+        0,
+        90
+      ],
+      [
+        90,
+        180
+      ]
+    ],
+    "mill-2": [
+      [
+        0,
+        125
+      ]
+    ]
+  },
+  "work_classes": {
+    "mill-1": [
+      "cut",
+      "weigh"
+    ],
+    "mill-2": [
+      "weigh"
+    ]
+  },
+  "reserve": {
+    "desk": "backup-2",
+    "capacity": 3,
+    "allowed": [
+      "weigh"
+    ]
+  },
+  "changes": [
+    {
+      "id": "m-1",
+      "scope": [
+        "mill-1"
+      ],
+      "period": [
+        60,
+        85
+      ]
+    },
+    {
+      "id": "m-2",
+      "scope": [
+        "mill-2"
+      ],
+      "period": [
+        72,
+        120
+      ]
+    }
+  ]
+}

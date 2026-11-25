@@ -1,0 +1,24 @@
+[
+  {
+    "action": "work-status",
+    "desk": "backup-2",
+    "ref": "o-9",
+    "delayed": true,
+    "evidence": {
+      "started": true,
+      "owner": "backup-night"
+    }
+  },
+  {
+    "action": "restore-report",
+    "desk": "network-desk",
+    "ref": "m-1",
+    "delayed": false,
+    "evidence": {
+      "link_restored": true,
+      "business_accepted": [
+        "cut"
+      ]
+    }
+  }
+]
